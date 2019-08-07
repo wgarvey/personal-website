@@ -1,3 +1,22 @@
+## Introduction
+This website is built and hosted at: https://wgarvey.info
+
+I have excluded some firebase files (for hosting) but the google analytics script is still in the public/index.html. This is not a security issue because google analytics verifies the source of the calls through the domain where this is hosted, which is https://wgarvey.info.
+
+### What is needed to serve these files locally
+nodejs and npm:
+
+### How to run it locally
+First download the npm packages:
+`npm update`
+
+Then serve the website locally.
+`npm start`
+
+----
+Original React Readme below
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
