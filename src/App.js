@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap-css-only';
 import {Image, Card, Button} from 'react-bootstrap';
-
-// Asset imports
+// Import image and video assets
 import * as Assets from "./assets";
 
 class App extends React.Component {
