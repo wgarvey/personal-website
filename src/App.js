@@ -138,7 +138,7 @@ class App extends React.Component {
                         <div className="centerCards">
                             <Card style={{width: '24rem', minWidth: "300px"}}>
                                 <div className="embed-responsive embed-responsive-16by9">
-                                    <iframe className="embed-responsive-item" src={Assets.MBlasterSampleVid} allowFullScreen/>
+                                    <iframe title="Mblaster video" className="embed-responsive-item" src={Assets.MBlasterSampleVid} allowFullScreen/>
                                 </div>
                                 <Card.Footer>Clip of the first level of MBlaster</Card.Footer>
                             </Card>
@@ -177,7 +177,7 @@ class App extends React.Component {
                         <div className="d-flex justify-content-center">
                             <Card style={{width: '30rem'}}>
                                 <div className="embed-responsive embed-responsive-16by9">
-                                    <iframe className="embed-responsive-item" src={Assets.PhysicsDemo} allowFullScreen/>
+                                    <iframe title="physics demo" className="embed-responsive-item" src={Assets.PhysicsDemo} allowFullScreen/>
                                 </div>
                                 <Card.Footer>Physics Engine Demonstration</Card.Footer>
                             </Card>
