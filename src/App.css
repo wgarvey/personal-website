@@ -1,0 +1,81 @@
+.App, #root, body, html {
+    width: 100%;
+
+}
+/* HEADER SECTION */
+.headerSection {
+    width: 100%;
+    background-color: #2352a6;
+    box-shadow: inset 0px 0px 63px 8px rgb(19, 48, 84);
+    height: auto;
+    margin: 0;
+}
+
+.headerSectionDark {
+    background-color: rgb(37, 37, 40);
+    box-shadow: inset 0px 0px 63px 8px #090909;
+}
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImageSizer {
+    display: inline-block;
+    width: 90%;
+    max-width: 300px;
+}
+
+.myName {
+    text-align: center;
+    color: beige;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* INFO SECTION */
+.infoSection {
+    width: 100%;
+    min-height: 100%;
+}
+
+.info {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100%;
+}
+.card {
+    background-color: rgba(0,0,0,.03) !important;
+}
+
+/* Overrides */
+.card-footer {
+    font-size: 0.9rem;
+    background-color: rgba(0,0,0,0) !important;
+    border-top: none !important;
+    display: flex  !important;
+    align-items: center  !important;
+    text-align: center  !important;
+    justify-content: center  !important;
+    flex-direction: column  !important;
+}
+
+.centerCards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+    .mainImageSizer {
+
+    }
+}
